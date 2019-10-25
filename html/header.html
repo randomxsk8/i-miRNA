@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+  <title>i miRNA</title>
+  
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  
+</head>
+
+<body>
+
+<div class="container">
+
+  <div>
+    
+    <div><img src="images/Animated.gif" alt="iMiRNA" id="animated_gif"></div>
+    <div class="icon-bar">
+        <!-- homepage.php è la pagina di benvenuto-->
+        <a class="active" href="index.php" data-toggle="tooltip" title="Home"><i class="fa fa-home"></i></a> 
+       
+
+        <!-- homepage.php è la pagina in cui si possono effettuare le ricerche-->
+        <a href="search.php" data-toggle="tooltip" title="Alignment search"><i class="fa fa-search"></i></a> 
+        
+
+        <!-- howto_site.php è la pagina di esempio-->
+        <a href="howto_site.php" data-toggle="tooltip" title="Try alignment"><i class="fa fa-align-justify"></i></a> 
+       
+
+        <!-- faq.php è la pagina di domande più frequenti-->
+        <a href="FAQ.php" data-toggle="tooltip" title="FAQ"><i class="fa fa-question-circle-o"></i></a>
+
+ 
+        <!-- link.php è la pagina dei link ai vari database-->
+        <a href="link.php" data-toggle="tooltip" title="Link"><i class="fa fa-link"></i></a>
+
+        <!-- about_us.php è la pagina di informazioni/contatti del team-->
+        <a href="about_us.php" data-toggle="tooltip" title="About us"><i class="fa fa-envelope"></i></a> 
+    </div> 
+  </div>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip({delay: {show: 1, hide: 100}, placement : 'bottom'
+  });   
+});
+</script>
+<!-- il div di container si chiude in footer.html-->

@@ -1,0 +1,1 @@
+<b>hsa-let-7c-5p</b>, with the following parameters:<b>Score:</b> 140,  <b>Energy:</b> 1,  <b>Strict:</b> off,  <b>Noenergy:</b> off <br>Time of the last scan: 2018-04-18 19:06
